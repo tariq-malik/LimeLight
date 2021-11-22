@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+  margin: 0;
+}
+.parallax-universe {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.background {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+}
+.background--jungel {
+  background-image: url('https://lh3.googleusercontent.com/frlonzjzCADqKCi-BsZku9grPGaVgBlokiNDLIBLP-4oiYS01WO4OkdP0x5vMrlQ2B_OzyhTbvoggblw68ylL5efAKDfe7VZ8hM99I86X53ht5Rvuti9jf__MksOfFW8P7hkLF6diA=w2400');
+}
+.background--plants {
+  background-image: url('https://lh3.googleusercontent.com/nVRXXz-F8ZFBqnaqzDh_lHeaDz04mdsp7OGzELt9OHFOKeSqWvDf9C753oQQfdG2FQHBAz1YnVnAKSQJ-F57TvwF8ooBKcYvbWHydiohV6PssfFNdFCJQArxkE22_iRr7YMkQ6HeEQ=w2400');
+}
+.background--water {
+  background-image: url('https://lh3.googleusercontent.com/ipNAWvu7-NAp62fYlgLschiCi0-9AVmsnUMw6tVjKbH4i82e20qt2L6NK5SpGd1htq3DQmq2NvKVp4AKfbnejdHhNWFpcB6QZzdzAG32AcImHPjA7AnqPzHXxDo4FLlaGYn5LG6s5g=w2400');
+}
+.background--mountain {
+  background-image: url('https://lh3.googleusercontent.com/y6jnITBekCK3RiT7qyYTWEn24Ru2GEMxrNMBOps7aAZsj2_565osO7BX8VVLLWRZyKRRFKwKm71YtPea9qNjEyenS54q_bs5RDl0COFpV6nv3qxV6AxLhB5sz-xZHkElsNV39Ak0Sw=w2400');
+}
+.title {
+  position: absolute;
+  margin: 0;
+  top: calc(50% - 50px);
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  height: 100px;
+  color: white;
+  font-size: 5rem;
+  background: rgba(0,0,0,0.4);
+}
+
+.parallax-desc {
+  z-index: 1;
+  position: relative;
+  background: #282E34;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 2em;
+  padding: 3rem;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  .desc-wrapper {
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .parallax--title {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .parallax--about {
+    margin-top: 50px;
+    padding: 0;
+  }
+}
+@media (max-width: 998px) and (orientation: portrait) {
+  .parallax-desc {
+    padding: 1.5rem 20px;
+    font-size: 1rem;
+    height: unset;
+    min-height: 100vh;
+    .parallax-title {
+      font-size: 2.5rem;
+      margin: 20px 0;
+      letter-spacing: unset;
+     }
+    .parallax-about {
+      margin-top: 20px;
+     }
+   }
+ }

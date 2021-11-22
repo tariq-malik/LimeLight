@@ -1,0 +1,39 @@
+<div class="parallax-universe">
+  <div class="background background--jungel">
+    <h2 class="title">Jungle Parallax</h2>
+  </div>
+  <section class="parallax-desc">
+    <div class="desc-wrapper">
+      <h3 class="parallax--title">Jungle Parallax</h3>
+      <p class="parallax--about">A jungle is land covered with dense forest and tangled vegetation, usually in tropical climates. Application of the term has varied greatly during the past recent centuries. Before the 1970s, tropical forests were generally referred to as jungles, but this terminology has fallen out of usage.</p>
+    </div>
+  </section>
+  <div class="background background--plants">
+    <h2 class="title">Plants Parallax</h2>
+  </div>
+  <section class="parallax-desc">
+    <div class="desc-wrapper">
+      <h3 class="parallax--title">Plants Parallax</h3>
+      <p class="parallax--about">Plants are the main part of the jungle. In botany, a tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves in most species. In some usages, the definition of a tree may be narrower, including only wood plants with secondary growth, plants that are usable as lumber or plants above a specified height.</p>
+    </div>
+  </section>
+  <div class="background background--water">
+    <h2 class="title">Water Parallax</h2>
+  </div>
+
+  <section class="parallax-desc">
+    <div class="desc-wrapper">
+      <h3 class="parallax--title">Water Parallax</h3>
+      <p class="parallax--about">Water is the most important factor in the jungle as all the life continues with water. All the animals and plants need the water. If forests are to be maintained, their additional benefits (especially as a water resource) should be emphasised besides biodiversity conservation needs. ... As a result, forests provide higher quality water with less sediment and fewer pollutants, compared to other catchment areas.</p>
+    </div>
+  </section>
+  <div class="background background--mountain">
+    <h2 class="title">Mountains Parallax</h2>
+  </div>
+  <section class="parallax-desc">
+    <div class="desc-wrapper">
+      <h3 class="parallax--title">Mountains Parallax</h3>
+      <p class="parallax--about">Mountain forests are important in watershed management and risk mitigation, as well as biodiversity and food security. They significantly contribute to air quality. They provide fuelwood and timber for local, as well as non-local users. In many mountain areas, forests are an integral part of complex land-use systems.</p>
+    </div>
+  </section>
+</div>
