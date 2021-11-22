@@ -1,0 +1,11 @@
+$(window).bind('scroll',function(e){
+    parallaxuniverse();
+});
+
+function parallaxuniverse(){
+   var scrolled=$(window).scrollTop(); 
+   $('.background--jungel').css('top',(400-(scrolled*.8))+'px');
+   $('.background--plants').css('top',(200-(scrolled*.6))+'px');
+   $('.background--water').css('top',(500-(scrolled*.4))+'px'); 
+   $('.background--mountain').css('top',(600-(scrolled*.5))+'px'); 
+}
